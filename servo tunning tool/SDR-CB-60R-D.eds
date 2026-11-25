@@ -1,0 +1,3747 @@
+[FileInfo]
+FileName=SDR-CB-60R-D.eds
+FileVersion=1
+FileRevision=1
+EDSVersion=4.0
+Description=Object dictionary for the SDR-CB-60R-D servo drive
+CreationTime=07:21AM
+CreationDate=10-22-2026
+CreatedBy=STIMITA MOTION CONTROL - SDR Servo Tuning Tool
+ModificationTime=07:21AM
+ModificationDate=10-22-2026
+ModifiedBy=STIMITA MOTION CONTROL - SDR Servo Tuning Tool
+
+[DeviceInfo]
+VendorName=Stimita Motion Control
+ProductName=SDR-CB-60R-D
+OrderCode=SDR-CB-60R-D
+BaudRate_125=1
+BaudRate_250=1
+BaudRate_500=1
+BaudRate_1000=1
+SimpleBootUpMaster=0
+SimpleBootUpSlave=1
+Granularity=8
+NrOfRXPDO=0
+NrOfTXPDO=3
+LSS_Supported=0
+; connected at node 1 when this file was generated
+; 14 rotor poles read from the drive when this file was generated
+
+[MandatoryObjects]
+SupportedObjects=0
+
+[OptionalObjects]
+SupportedObjects=5
+1=0x1A00
+2=0x1A01
+3=0x1A02
+4=0x6040
+5=0x6041
+
+[ManufacturerObjects]
+SupportedObjects=44
+1=0x2000
+2=0x2002
+3=0x2004
+4=0x2014
+5=0x2015
+6=0x2024
+7=0x2025
+8=0x2034
+9=0x2044
+10=0x2048
+11=0x2049
+12=0x20FF
+13=0x3000
+14=0x3002
+15=0x3004
+16=0x3011
+17=0x3012
+18=0x3013
+19=0x3014
+20=0x3015
+21=0x3016
+22=0x3017
+23=0x3020
+24=0x3021
+25=0x4000
+26=0x4001
+27=0x4002
+28=0x4007
+29=0x4008
+30=0x5000
+31=0x5001
+32=0x5002
+33=0x5003
+34=0x5004
+35=0x5005
+36=0x5006
+37=0x5007
+38=0x5008
+39=0x5009
+40=0x500A
+41=0x500B
+42=0x500C
+43=0x500D
+44=0x5010
+
+[1A00]
+ParameterName=Telemetry Mapping: TPDO Message 0
+ObjectType=0x9
+SubNumber=4
+
+[1A00sub1]
+ParameterName=Parameter 0
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A00sub2]
+ParameterName=Parameter 1
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A00sub3]
+ParameterName=Parameter 2
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A00sub4]
+ParameterName=Parameter 3
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A01]
+ParameterName=Telemetry Mapping: TPDO Message 1
+ObjectType=0x9
+SubNumber=4
+
+[1A01sub1]
+ParameterName=Parameter 0
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A01sub2]
+ParameterName=Parameter 1
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A01sub3]
+ParameterName=Parameter 2
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A01sub4]
+ParameterName=Parameter 3
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A02]
+ParameterName=Telemetry Mapping: TPDO Message 2
+ObjectType=0x9
+SubNumber=4
+
+[1A02sub1]
+ParameterName=Parameter 0
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A02sub2]
+ParameterName=Parameter 1
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A02sub3]
+ParameterName=Parameter 2
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[1A02sub4]
+ParameterName=Parameter 3
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000]
+ParameterName=Datasheet
+ObjectType=0x9
+SubNumber=13
+
+; Motor Type (Brushless or Brushed): 0=Brushless Motor, 1=Brushed Motor, Voice Coil Motor
+[2000sub1]
+ParameterName=Motor Type (Brushless or Brushed)
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub2]
+ParameterName=Maximum Limit on Continuous Current (Line-to-Line)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub3]
+ParameterName=Poles Number (Rotor Poles)
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub4]
+ParameterName=Phase Resistance (Line-to-Line)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub5]
+ParameterName=Phase Inductance (Line-to-Line)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub6]
+ParameterName=Back-Emf Constant (Ke)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub7]
+ParameterName=Viscous Damping Constant (Rotor & Payload)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000sub8]
+ParameterName=Moment of Inertia (Rotor & Payload)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Hall Sensors: 0=Sensorless, 1=Sensored
+[2000sub9]
+ParameterName=Hall Sensors
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Motor Encoder (Direct Drive): 0=No encoder, 1=Quadrature Encoder, 2=BISS-C/SSI Encoder, 3=SPI Encoder, 4=PWM Encoder, 5=RS485 Encoder, 6=Dual Encoder
+[2000subA]
+ParameterName=Motor Encoder (Direct Drive)
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Servo Encoder (Load Side): 0=No encoder, 1=Quadrature Encoder, 2=BISS-C/SSI Encoder, 3=SPI Encoder, 4=PWM Encoder, 5=RS485 Encoder, 6=Dual Encoder
+[2000subB]
+ParameterName=Servo Encoder (Load Side)
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000subC]
+ParameterName=Rotary Gearbox: Reduction Ratio
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2000subD]
+ParameterName=Linear Ball Screw: Lead
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002]
+ParameterName=Control Laws
+ObjectType=0x9
+SubNumber=18
+
+[2002sub2]
+ParameterName=Speed Filter: T
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub12]
+ParameterName=Field Oriented Control: FOC Kp
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub13]
+ParameterName=Field Oriented Control: FOC T
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub14]
+ParameterName=Field Oriented Control: FOC Lead Angle
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+LowLimit=-90
+HighLimit=90
+DefaultValue=
+PDOMapping=0
+
+[2002sub22]
+ParameterName=Electronic Speed Control: ESC Kp
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub23]
+ParameterName=Electronic Speed Control: ESC T
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub32]
+ParameterName=Servo: Kp (Proportional Term)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub33]
+ParameterName=Servo: T (Integral Term)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub34]
+ParameterName=Servo: Speed Limit (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub36]
+ParameterName=Servo: Dead Zone Radius
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub37]
+ParameterName=Servo: Kff (Velocity Feed-Forward Gain)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+LowLimit=0
+HighLimit=1
+DefaultValue=
+PDOMapping=0
+
+[2002sub38]
+ParameterName=Servo: Td (Derivative Term)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub52]
+ParameterName=Sensorless: Kickstart Speed Limit (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub53]
+ParameterName=Sensorless: Kickstart Time
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub54]
+ParameterName=Sensorless: Kp (Gain)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub62]
+ParameterName=Sensorless: EMF Zero Speed Voltage (high watermark)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub63]
+ParameterName=Sensorless: EMF Zero Speed Voltage (low watermark)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2002sub72]
+ParameterName=Micro-Speeding: Speed Limit (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004]
+ParameterName=Features
+ObjectType=0x9
+SubNumber=10
+
+[2004sub2]
+ParameterName=Feature: Kickstart
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub3]
+ParameterName=Feature: Kickstart using Hall Sensors
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub42]
+ParameterName=Feature: FOC D-Q Coupling Compensation (Feed-Forward)
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub43]
+ParameterName=Feature: FOC Phase Resistance Compensation (Feed-Forward)
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub44]
+ParameterName=Feature: Gimbal Control
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub52]
+ParameterName=Feature: ESC Viscous Damping Compensation (Feed-Forward)
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub62]
+ParameterName=Feature: Micro-Speeding
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub72]
+ParameterName=Feature: Use Servo Encoder for Speed Measurements
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub73]
+ParameterName=Feature: Speed Filter
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2004sub74]
+ParameterName=Feature: Servo Integral Term (Servo: T)
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2014]
+ParameterName=Notch Filter 0: Output Torque
+ObjectType=0x9
+SubNumber=3
+
+[2014sub2]
+ParameterName=Notch Filter 0: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2014sub3]
+ParameterName=Notch Filter 0: center frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2014sub4]
+ParameterName=Notch Filter 0: bandwidth
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2015]
+ParameterName=Notch Filter 1: Speed Filter
+ObjectType=0x9
+SubNumber=3
+
+[2015sub2]
+ParameterName=Notch Filter 1: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2015sub3]
+ParameterName=Notch Filter 1: center frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2015sub4]
+ParameterName=Notch Filter 1: bandwidth
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2024]
+ParameterName=Virtual Brake
+ObjectType=0x9
+SubNumber=4
+
+[2024sub3]
+ParameterName=Backlash Threshold
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2024sub4]
+ParameterName=T rising
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2024sub5]
+ParameterName=T falling
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2024sub10]
+ParameterName=Feature: Engage Virtual Brake in IDLE state
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025]
+ParameterName=Electromagnetic Brake
+ObjectType=0x9
+SubNumber=6
+
+[2025sub3]
+ParameterName=Pulling voltage
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025sub4]
+ParameterName=Holding voltage
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025sub7]
+ParameterName=Pulling time
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025sub10]
+ParameterName=Feature: Engage Electromagnetic Brake on Faults
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025sub11]
+ParameterName=Feature: Engage Electromagnetic Brake on Network Timeout
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2025sub12]
+ParameterName=Feature: Automatic Electromagnetic Brake Control
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034]
+ParameterName=Servo: Work Zone
+ObjectType=0x9
+SubNumber=6
+
+[2034subB0]
+ParameterName=Work Zone: zero offset
+ObjectType=0x7
+DataType=0x0004
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034subB1]
+ParameterName=Feature: Enforce Work Zone Limits
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034subB2]
+ParameterName=Work Zone: Limit in Negative Direction
+ObjectType=0x7
+DataType=0x0004
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034subB3]
+ParameterName=Work Zone: Limit in Positive Direction
+ObjectType=0x7
+DataType=0x0004
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034subC1]
+ParameterName=Feature: Customized Work Zone Dimension
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2034subC2]
+ParameterName=Work Zone: Dimension
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2044]
+ParameterName=Fault Management
+ObjectType=0x9
+SubNumber=2
+
+[2044sub2]
+ParameterName=Hide Faults
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2044sub4]
+ParameterName=Overcurrent Limit: Factor
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2048]
+ParameterName=Acceleration Control
+ObjectType=0x9
+SubNumber=4
+
+[2048sub3]
+ParameterName=Stop Timeout
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2048sub4]
+ParameterName=Feature: Acceleration/Deceleration Control
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2048sub5]
+ParameterName=Acceleration
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2048sub6]
+ParameterName=Deceleration
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[2049]
+ParameterName=Starter-Generator Control
+ObjectType=0x9
+SubNumber=2
+
+[2049sub3]
+ParameterName=Power Generation: Damping Factor
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+LowLimit=2
+HighLimit=15
+DefaultValue=
+PDOMapping=0
+
+[2049sub4]
+ParameterName=Power Generation: Bandwidth Factor
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+LowLimit=1
+HighLimit=15
+DefaultValue=
+PDOMapping=0
+
+[20FF]
+ParameterName=Product Activation
+ObjectType=0x9
+SubNumber=1
+
+[20FFsub2]
+ParameterName=Activation Key
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3000]
+ParameterName=Networks
+ObjectType=0x9
+SubNumber=8
+
+; CAN: bitrate: 50=50, 100=100, 125=125, 250=250, 500=500, 1000=1000
+; CAN: bitrate takes effect only after a power cycle of the drive
+[3000sub2]
+ParameterName=CAN: bitrate
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; CANopen: Node ID takes effect only after a power cycle of the drive
+[3000sub3]
+ParameterName=CANopen: Node ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+LowLimit=1
+HighLimit=127
+DefaultValue=
+PDOMapping=0
+
+[3000sub4]
+ParameterName=CANopen: heartbeat timeout
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3000sub5]
+ParameterName=CANopen: telemetry frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; CANopen: receiving frequency takes effect only after a power cycle of the drive
+[3000sub6]
+ParameterName=CANopen: receiving frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Feature: USB2CAN routing takes effect only after a power cycle of the drive
+[3000sub10]
+ParameterName=Feature: USB2CAN routing
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; USB2CAN: support 29bit ID frames takes effect only after a power cycle of the drive
+[3000sub12]
+ParameterName=USB2CAN: support 29bit ID frames
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; USB: serial number takes effect only after a power cycle of the drive
+[3000sub20]
+ParameterName=USB: serial number
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002]
+ParameterName=Peripheral: Inverter
+ObjectType=0x9
+SubNumber=9
+
+; ADC: Amplifier Gain Selector: 0=No amplifier: x1, 1=Amplifier gain: x4 (!!!), 2=Amplifier gain: x2, 4=Amplifier gain: x4, 8=Amplifier gain: x8
+[3002sub3]
+ParameterName=ADC: Amplifier Gain Selector
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002subA]
+ParameterName=ADC: Shunt Resistor in Phase A
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002subB]
+ParameterName=ADC: Shunt Resistor in Phase B
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub10]
+ParameterName=ADC: Shunt Correction Factor
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub20]
+ParameterName=Udc capacitor: C
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub30]
+ParameterName=PWM: Period (Inverter Resolution)
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub31]
+ParameterName=PWM: Dead Ticks
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub32]
+ParameterName=PWM: ADC Decimation Factor
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3002sub33]
+ParameterName=PWM: Minimal Pulse Width
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3004]
+ParameterName=Peripheral: Hall Sensors
+ObjectType=0x9
+SubNumber=4
+
+[3004sub5]
+ParameterName=Hall signals inverted
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; physical sensor for logical sensor 0: 0=0, 1=1, 2=2
+[3004sub6]
+ParameterName=physical sensor for logical sensor 0
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; physical sensor for logical sensor 1: 0=0, 1=1, 2=2
+[3004sub7]
+ParameterName=physical sensor for logical sensor 1
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; physical sensor for logical sensor 2: 0=0, 1=1, 2=2
+[3004sub8]
+ParameterName=physical sensor for logical sensor 2
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011]
+ParameterName=Peripheral: Quadrature Encoder
+ObjectType=0x9
+SubNumber=10
+
+[3011sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011sub4]
+ParameterName=inverted installation (swap A and B signals)
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011sub11]
+ParameterName=polarity inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011sub12]
+ParameterName=UNIT TIME
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3011sub13]
+ParameterName=UNIT DISTANCE: UPPS
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=0
+HighLimit=15
+DefaultValue=
+PDOMapping=0
+
+[3011sub14]
+ParameterName=UNIT DISTANCE: Divider CCPS
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=0
+HighLimit=7
+DefaultValue=
+PDOMapping=0
+
+[3011sub15]
+ParameterName=speed selection threshold
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; incremental encoder: 0=an absolute encoder with an index signal ("I" or "Z" signal is present), 1=an incremental encoder (no index signal)
+[3011sub16]
+ParameterName=incremental encoder
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Feature: hardware-accelerated speed measurement: 1=use hardware to measure speed via UNIT DISTANCE and UNIT
+[3011sub17]
+ParameterName=Feature: hardware-accelerated speed measurement
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012]
+ParameterName=Peripheral: PWM Encoder
+ObjectType=0x9
+SubNumber=9
+
+[3012sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub4]
+ParameterName=inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; PWM capture interface: 0=ENCODERS connector (DEFAULT), 1=D-HALL connector
+[3012subF]
+ParameterName=PWM capture interface
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub10]
+ParameterName=pulse period
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub11]
+ParameterName=max pulse width (angle=360 deg)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub12]
+ParameterName=min pulse width (angle=0 deg)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub13]
+ParameterName=polarity inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3012sub14]
+ParameterName=pulse timeout period
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013]
+ParameterName=Peripheral: SSI/BISS-C Encoder
+ObjectType=0x9
+SubNumber=29
+
+[3013sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub4]
+ParameterName=inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub10]
+ParameterName=request frequency: divider
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub11]
+ParameterName=clock frequency: divider
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; clock polarity: 0=idle low, 1=idle high
+[3013sub12]
+ParameterName=clock polarity
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; clock phase: 0=sample on the 1st edge of clock pulse, 1=sample on the 2nd edge of clock pulse (trailing edge)
+[3013sub13]
+ParameterName=clock phase
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub14]
+ParameterName=total number of bits in packet
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=1
+HighLimit=64
+DefaultValue=
+PDOMapping=0
+
+[3013sub20]
+ParameterName=POSITION field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub21]
+ParameterName=POSITION field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub22]
+ParameterName=POSITION field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub23]
+ParameterName=CRC field: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub24]
+ParameterName=CRC field: start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub25]
+ParameterName=CRC field: length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub26]
+ParameterName=CRC field: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub27]
+ParameterName=CRC input: start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub28]
+ParameterName=CRC input: length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub29]
+ParameterName=CRC input: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2A]
+ParameterName=ERROR bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2B]
+ParameterName=ERROR bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2C]
+ParameterName=ERROR bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2D]
+ParameterName=WARN bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2E]
+ParameterName=WARN bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub2F]
+ParameterName=WARN bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub30]
+ParameterName=MULTI-TURN field (count): enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub31]
+ParameterName=MULTI-TURN field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub32]
+ParameterName=MULTI-TURN field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub33]
+ParameterName=MULTI-TURN field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3013sub34]
+ParameterName=MULTI-TURN Count Limit (count)
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014]
+ParameterName=Peripheral: SPI Encoder
+ObjectType=0x9
+SubNumber=29
+
+[3014sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub4]
+ParameterName=inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub10]
+ParameterName=request frequency: divider
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub11]
+ParameterName=clock frequency: divider
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; clock polarity: 0=idle low, 1=idle high
+[3014sub12]
+ParameterName=clock polarity
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; clock phase: 0=sample on the 1st edge of clock pulse, 1=sample on the 2nd edge of clock pulse (trailing edge)
+[3014sub13]
+ParameterName=clock phase
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub14]
+ParameterName=total number of bits in packet
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=1
+HighLimit=64
+DefaultValue=
+PDOMapping=0
+
+[3014sub20]
+ParameterName=POSITION field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub21]
+ParameterName=POSITION field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub22]
+ParameterName=POSITION field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub23]
+ParameterName=CRC field: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub24]
+ParameterName=CRC field: start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub25]
+ParameterName=CRC field: length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub26]
+ParameterName=CRC field: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub27]
+ParameterName=CRC input: start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub28]
+ParameterName=CRC input: length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub29]
+ParameterName=CRC input: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2A]
+ParameterName=ERROR bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2B]
+ParameterName=ERROR bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2C]
+ParameterName=ERROR bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2D]
+ParameterName=WARN bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2E]
+ParameterName=WARN bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub2F]
+ParameterName=WARN bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub30]
+ParameterName=MULTI-TURN field (count): enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub31]
+ParameterName=MULTI-TURN field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub32]
+ParameterName=MULTI-TURN field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub33]
+ParameterName=MULTI-TURN field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3014sub34]
+ParameterName=MULTI-TURN Count Limit (count)
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015]
+ParameterName=Peripheral: RC PWM or Electronic Gearing
+ObjectType=0x9
+SubNumber=12
+
+[3015sub1]
+ParameterName=enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub4]
+ParameterName=RC PWM: inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Function: 0=RC ESC, 1=RC Servo, 2=Electronic Gearing
+[3015sub5]
+ParameterName=Function
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015subE]
+ParameterName=RC ESC: bidirectional speed
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; PWM capture interface: 0=ENCODERS connector, 1=D-HALL connector (DEFAULT)
+[3015subF]
+ParameterName=PWM capture interface
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub10]
+ParameterName=RC PWM: pulse period
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub11]
+ParameterName=RC PWM: max pulse width (angle=360 deg)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub12]
+ParameterName=RC PWM: min pulse width (angle=0 deg)
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub13]
+ParameterName=polarity inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub14]
+ParameterName=RC PWM: pulse timeout period
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub20]
+ParameterName=Electronic Gearing: multiplier
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3015sub21]
+ParameterName=Electronic Gearing: divider
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016]
+ParameterName=Peripheral: RS485 Encoder
+ObjectType=0x9
+SubNumber=23
+
+[3016sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub4]
+ParameterName=inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub10]
+ParameterName=RS485: request frequency (divider)
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub14]
+ParameterName=RS485: total number of bits in packet
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=1
+HighLimit=64
+DefaultValue=
+PDOMapping=0
+
+[3016sub20]
+ParameterName=POSITION field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub21]
+ParameterName=POSITION field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub22]
+ParameterName=POSITION field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2A]
+ParameterName=ERROR bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2B]
+ParameterName=ERROR bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2C]
+ParameterName=ERROR bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2D]
+ParameterName=WARN bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2E]
+ParameterName=WARN bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub2F]
+ParameterName=WARN bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub30]
+ParameterName=MULTI-TURN field (count): enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub31]
+ParameterName=MULTI-TURN field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub32]
+ParameterName=MULTI-TURN field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub33]
+ParameterName=MULTI-TURN field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016sub34]
+ParameterName=MULTI-TURN Count Limit (count)
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016subA0]
+ParameterName=RS485: baudrate
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016subA4]
+ParameterName=RS485: request packet's size
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3016subA5]
+ParameterName=RS485: request packet
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; RS485: field endianness: 0=big endian, 1=little endian
+[3016subB0]
+ParameterName=RS485: field endianness
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017]
+ParameterName=Peripheral: Dual Encoder
+ObjectType=0x9
+SubNumber=18
+
+[3017sub2]
+ParameterName=counts per revolution
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub3]
+ParameterName=encoder bias vs. electrical position
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub4]
+ParameterName=inverted installation
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub14]
+ParameterName=total number of bits in packet
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+LowLimit=1
+HighLimit=64
+DefaultValue=
+PDOMapping=0
+
+[3017sub20]
+ParameterName=POSITION field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub21]
+ParameterName=POSITION field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub22]
+ParameterName=POSITION field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2A]
+ParameterName=ERROR bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2B]
+ParameterName=ERROR bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2C]
+ParameterName=ERROR bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2D]
+ParameterName=WARN bit: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2E]
+ParameterName=WARN bit: bit position
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub2F]
+ParameterName=WARN bit: bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub30]
+ParameterName=MULTI-TURN field (count): enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub31]
+ParameterName=MULTI-TURN field (count): start bit
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub32]
+ParameterName=MULTI-TURN field (count): length
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub33]
+ParameterName=MULTI-TURN field (count): bit inversion
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3017sub34]
+ParameterName=MULTI-TURN Count Limit (count)
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3020]
+ParameterName=Peripheral: GPIO
+ObjectType=0x9
+SubNumber=6
+
+[3020sub10]
+ParameterName=Emergency Stop Switch
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3020sub11]
+ParameterName=Limit Switch: Negative Speed
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3020sub12]
+ParameterName=Limit Switch: Positive Speed
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+; Switches: type: 0=Normally Open, 1=Normally Closed
+[3020sub19]
+ParameterName=Switches: type
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3020sub20]
+ParameterName=Generic Output
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3020sub30]
+ParameterName=Generic Input
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[3021]
+ParameterName=Peripheral: Thermistor
+ObjectType=0x9
+SubNumber=1
+
+[3021sub10]
+ParameterName=Thermistor: enable
+ObjectType=0x7
+DataType=0x0001
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[4000]
+ParameterName=Telemetry - System Status
+ObjectType=0x9
+SubNumber=18
+
+; Operation Mode: 0=Idle, 1=Off, 2=Fault, 3=Autoconfiguration, 4=Field Oriented Control (FOC), 6=Electronic Speed Control (ESC), 8=Servo Control, 9=Kickstart, 10=Virtual Brake, 11=Direct Field Control - Rotation, 12=Direct Field Control - Electrical Position, 14=Power Generation, 15=Testing - FOC Step Response, 16=Testing - Speed Step Response, 17=Testing - Servo Step Response, 19=Brushed Motor or Solenoid Control (1-2 motors), 20=Testing - Iq Current Step Response
+[4000sub2]
+ParameterName=Operation Mode
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; Fault Bits: 0=No fault, 1=Driver Fault, 2=Driver Warning (Maskable), 3==1+2, 4=Overheating Protection (firmware-controlled), 8=Overcurrent Protection (firmware-controlled), 9==1+8, 10==2+8, 16=Thermistor Overheating, 32=Hall Sensors Fault, 64=Quadrature Encoder Fault, 128=SSI Encoder Fault, 256=SPI Encoder Fault, 512=PWM Encoder Fault, 1024=RC PWM Input Fault, 16384=Emergency Stop, 32768=Activation Key is Missing
+[4000sub3]
+ParameterName=Fault Bits
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub4]
+ParameterName=Sample Number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub10]
+ParameterName=Speed (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub11]
+ParameterName=Electrical Position
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub14]
+ParameterName=Kickstart needed
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; Commutation Mode: 0=Undefined, 1=Kickstart, 2=Sensorless, 3=Hall Sensors, 4=Motor Encoder
+[4000sub15]
+ParameterName=Commutation Mode
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub16]
+ParameterName=Work Zone: Speed
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub19]
+ParameterName=Work Zone: Count
+ObjectType=0x7
+DataType=0x0004
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub1A]
+ParameterName=Work Zone: Modulo Count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub1B]
+ParameterName=Work Zone: Turn Count
+ObjectType=0x7
+DataType=0x0004
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub1C]
+ParameterName=Work Zone: Dimension
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub20]
+ParameterName=Reference: Current
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub21]
+ParameterName=Reference: Speed (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub23]
+ParameterName=Reference: Work Zone Count
+ObjectType=0x7
+DataType=0x0004
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub32]
+ParameterName=Servo Encoder: Counts
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4000sub33]
+ParameterName=Motor Encoder: Counts
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; Target Reached: 0=Not reached, 1=Reached
+[4000sub41]
+ParameterName=Target Reached
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001]
+ParameterName=Telemetry - Field Oriented Control: FOC, ESC & Servo
+ObjectType=0x9
+SubNumber=9
+
+[4001sub2]
+ParameterName=Torque
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub3]
+ParameterName=FOC: Iq Current
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub4]
+ParameterName=FOC: Id Current
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub5]
+ParameterName=FOC: Uq Output Voltage
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub6]
+ParameterName=FOC: Ud Output Voltage
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub7]
+ParameterName=FOC: Uq Integral Term
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub8]
+ParameterName=FOC: Ud Integral Term
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub22]
+ParameterName=ESC: Integral Term
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4001sub32]
+ParameterName=Servo: Integral Term
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002]
+ParameterName=Telemetry - Hall Sensors Observer
+ObjectType=0x9
+SubNumber=10
+
+; Hall Observer: mode: 0=Zero speed, 1=Low speed, 2=Operational speed
+[4002sub2]
+ParameterName=Hall Observer: mode
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub3]
+ParameterName=Hall Observer: Hall code
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub4]
+ParameterName=Hall Observer: Speed (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub5]
+ParameterName=Hall Observer: Electrical Position
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub6]
+ParameterName=Hall Observer: Technical Speed Limit
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub7]
+ParameterName=Hall Observer: between codes counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub8]
+ParameterName=Hall Observer: Hall errors counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002sub9]
+ParameterName=Hall Observer: positioning error estimate
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002subA]
+ParameterName=Hall Observer: Zero Speed Threshold
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4002subB]
+ParameterName=Hall Observer: count
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007]
+ParameterName=Telemetry - Sensorless Control
+ObjectType=0x9
+SubNumber=8
+
+; Sensorless: mode: 0=Undefined state, 1=Zero speed, 2=Operational speed
+[4007sub2]
+ParameterName=Sensorless: mode
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub3]
+ParameterName=Sensorless: Speed (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub4]
+ParameterName=Sensorless: Electrical Position
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub5]
+ParameterName=Sensorless: Emf alpha
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub6]
+ParameterName=Sensorless: Emf beta
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub7]
+ParameterName=Sensorless: Back-Emf Constant (Ke)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub8]
+ParameterName=Sensorless: Zero Speed Threshold
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4007sub9]
+ParameterName=Sensorless: Technical Speed Limit
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4008]
+ParameterName=Telemetry - Direct Field Control
+ObjectType=0x9
+SubNumber=2
+
+[4008sub3]
+ParameterName=Direct Field Control: Electrical Position
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[4008sub4]
+ParameterName=Direct Field Control: Speed (Electrical Frequency)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000]
+ParameterName=Telemetry - Device Information
+ObjectType=0x9
+SubNumber=14
+
+[5000sub9F]
+ParameterName=Device Type
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA0]
+ParameterName=Device Serial Number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA1]
+ParameterName=Firmware Serial Number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA2]
+ParameterName=Control Frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA3]
+ParameterName=Switching (PWM) Frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA4]
+ParameterName=ADC ISR Execution Time
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA5]
+ParameterName=Timer ISR Execution Time
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA6]
+ParameterName=USB RX ISR Execution Time
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA7]
+ParameterName=Firmware Version
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA8]
+ParameterName=CPU Clock Frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subA9]
+ParameterName=Timer ISR Frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subAA]
+ParameterName=PWM Clock Frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subAB]
+ParameterName=CAN RX ISR Execution Time
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5000subAC]
+ParameterName=ADC ISR Execution PWM clock
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001]
+ParameterName=Telemetry - ADC
+ObjectType=0x9
+SubNumber=9
+
+; ADC mode: 0=Calibration is ongoing, 1=Operational
+[5001sub3]
+ParameterName=ADC mode
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; Voltage: DC bus (Udc) is fixed point on the wire: INTEGER16 holding the value x 256 (the reference calls the type FLOAT16; it is not an IEEE half float)
+[5001sub4]
+ParameterName=Voltage: DC bus (Udc)
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001sub5]
+ParameterName=Current: Phase A (Ia)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001sub6]
+ParameterName=Current: Phase B (Ib)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001sub7]
+ParameterName=Current: Phase C (Ic)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001sub8]
+ParameterName=Current: DC bus (Itotal)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001subB]
+ParameterName=Thermistor
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+LowLimit=0
+HighLimit=4095
+DefaultValue=
+PDOMapping=0
+
+[5001subC]
+ParameterName=CPU Temperature
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5001subD]
+ParameterName=Voltage: DC bus (Udc, f32)
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5002]
+ParameterName=Telemetry - Peripheral: Inverter
+ObjectType=0x9
+SubNumber=5
+
+; Inverter: mode: 0=PWM is OFF, 1=PWM is ON
+[5002sub2]
+ParameterName=Inverter: mode
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5002sub3]
+ParameterName=Inverter: duty A
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5002sub4]
+ParameterName=Inverter: duty B
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5002sub5]
+ParameterName=Inverter: duty C
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5002sub10]
+ParameterName=Inverter: voltage utilization
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+LowLimit=0
+HighLimit=1
+DefaultValue=
+PDOMapping=0
+
+[5003]
+ParameterName=Telemetry - Peripheral: Electromagnetic Brake
+ObjectType=0x9
+SubNumber=1
+
+; Electromagnetic Brake: mode: 0=Engaged, 1=Pulling, 2=Holding
+[5003sub2]
+ParameterName=Electromagnetic Brake: mode
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5004]
+ParameterName=Telemetry - Peripheral: Driver IC
+ObjectType=0x9
+SubNumber=4
+
+; Driver IC: status: 0=Driver IC is OFF, 1=Driver IC is ON
+[5004sub2]
+ParameterName=Driver IC: status
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5004sub3]
+ParameterName=Driver IC: fault
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5004sub4]
+ParameterName=Driver IC: warning
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; Driver IC: model: 0=DRV8302, 1=DRV8301
+[5004sub10]
+ParameterName=Driver IC: model
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5005]
+ParameterName=Telemetry - Peripheral: Hall Sensors
+ObjectType=0x9
+SubNumber=4
+
+[5005sub2]
+ParameterName=Hall Sensors Fault
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5005sub3]
+ParameterName=Hall Sensor #0
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5005sub4]
+ParameterName=Hall Sensor #1
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5005sub5]
+ParameterName=Hall Sensor #2
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006]
+ParameterName=Telemetry - Peripheral: SPI Encoder
+ObjectType=0x9
+SubNumber=12
+
+[5006sub2]
+ParameterName=SPI Encoder: packets counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub3]
+ParameterName=SPI Encoder: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub4]
+ParameterName=SPI Encoder: is count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub5]
+ParameterName=SPI Encoder: error bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub6]
+ParameterName=SPI Encoder: warn bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub7]
+ParameterName=SPI Encoder: extracted CRC
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub8]
+ParameterName=SPI Encoder: computed CRC
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006sub9]
+ParameterName=SPI Encoder: CRC mismatch error
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006subA]
+ParameterName=SPI Encoder: CRC mismatch counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006subB]
+ParameterName=SPI Encoder: turn count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006subC]
+ParameterName=SPI Encoder: is turn count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5006subD]
+ParameterName=SPI Encoder: recoverable errors counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007]
+ParameterName=Telemetry - Peripheral: PWM Encoder
+ObjectType=0x9
+SubNumber=14
+
+; PWM Encoder: state: 0=Undefined, 1=No interrupts, 2=Operational, 3=Fault - No Pulse, 4=Fault - PWM Duty Out of Range
+[5007sub2]
+ParameterName=PWM Encoder: state
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub3]
+ParameterName=PWM Encoder: event counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub4]
+ParameterName=PWM Encoder: pulse width (CAP1)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub5]
+ParameterName=PWM Encoder: pulse period (CAP2)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub6]
+ParameterName=PWM Encoder: pulse width (CAP3)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub7]
+ParameterName=PWM Encoder: pulse period (CAP4)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub8]
+ParameterName=PWM Encoder: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007sub9]
+ParameterName=PWM Encoder: fault detected
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subA]
+ParameterName=PWM Encoder: pulse width
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subB]
+ParameterName=PWM Encoder: pulse period
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subC]
+ParameterName=PWM Encoder: pulse timeout counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subD]
+ParameterName=PWM Encoder: pulse counter
+ObjectType=0x7
+DataType=0x0004
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subE]
+ParameterName=PWM Encoder: frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5007subF]
+ParameterName=PWM Encoder: ratio
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+LowLimit=0
+HighLimit=1
+DefaultValue=
+PDOMapping=0
+
+[5008]
+ParameterName=Telemetry - Peripheral: SSI/BISS-C Encoder
+ObjectType=0x9
+SubNumber=12
+
+[5008sub2]
+ParameterName=SSI/BISS-C Encoder: packets counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub3]
+ParameterName=SSI/BISS-C Encoder: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub4]
+ParameterName=SSI/BISS-C Encoder: is count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub5]
+ParameterName=SSI/BISS-C Encoder: error bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub6]
+ParameterName=SSI/BISS-C Encoder: warn bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub7]
+ParameterName=SSI/BISS-C Encoder: extracted CRC
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub8]
+ParameterName=SSI/BISS-C Encoder: computed CRC
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008sub9]
+ParameterName=SSI/BISS-C Encoder: CRC mismatch error
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008subA]
+ParameterName=SSI/BISS-C Encoder: CRC mismatch counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008subB]
+ParameterName=SSI/BISS-C Encoder: turn count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008subC]
+ParameterName=SSI/BISS-C Encoder: is turn count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5008subD]
+ParameterName=SSI/BISS-C Encoder: recoverable errors counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5009]
+ParameterName=Telemetry - Peripheral: GPIO & STO / Interlock
+ObjectType=0x9
+SubNumber=5
+
+[5009sub4]
+ParameterName=GPIO: Emergency Stop Switch
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5009sub5]
+ParameterName=GPIO: Limit Switch: Negative Speed
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5009sub6]
+ParameterName=GPIO: Limit Switch: Positive Speed
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5009sub10]
+ParameterName=GPIO: Generic Input
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; STO /Interlock: status: 0=Motion blocked (SAFE), 1=Motion allowed
+[5009sub20]
+ParameterName=STO /Interlock: status
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500A]
+ParameterName=Telemetry - Peripheral: Quadrature Encoder
+ObjectType=0x9
+SubNumber=12
+
+[500Asub2]
+ParameterName=Quadrature: signal A
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Asub3]
+ParameterName=Quadrature: signal B
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Asub4]
+ParameterName=Quadrature: signal I
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Asub5]
+ParameterName=Quadrature: direction
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Asub6]
+ParameterName=Quadrature: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Asub8]
+ParameterName=Quadrature: encoder speed
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubA]
+ParameterName=Quadrature: index detected
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubB]
+ParameterName=Quadrature: phase errors counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubC]
+ParameterName=Quadrature: encoder speed via UNIT DISTANCE method
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubD]
+ParameterName=Quadrature: encoder speed via UNIT TIME method
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubE]
+ParameterName=Quadrature: distance traveled in UNIT TIME
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500AsubF]
+ParameterName=Quadrature: time to travel UNIT DISTANCE
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500B]
+ParameterName=Telemetry - Peripheral: RC PWM or Electronic Gearing
+ObjectType=0x9
+SubNumber=13
+
+; RC PWM Input: state: 0=Undefined, 1=No interrupts, 2=Operational, 3=Fault - No Pulse, 4=Fault - PWM Duty Out of Range
+[500Bsub2]
+ParameterName=RC PWM Input: state
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub3]
+ParameterName=RC PWM Input: event counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub4]
+ParameterName=RC PWM Input: pulse width (CAP1)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub5]
+ParameterName=RC PWM Input: pulse period (CAP2)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub6]
+ParameterName=RC PWM Input: pulse width (CAP3)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub7]
+ParameterName=RC PWM Input: pulse period (CAP4)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Bsub9]
+ParameterName=RC PWM Input: fault detected
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubA]
+ParameterName=RC PWM Input: pulse width
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubB]
+ParameterName=RC PWM Input: pulse period
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubC]
+ParameterName=RC PWM Input: pulse timeout counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubD]
+ParameterName=RC PWM Input: pulse counter
+ObjectType=0x7
+DataType=0x0004
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubE]
+ParameterName=RC PWM Input: frequency
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500BsubF]
+ParameterName=RC PWM Input: ratio
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+LowLimit=0
+HighLimit=1
+DefaultValue=
+PDOMapping=0
+
+[500C]
+ParameterName=Telemetry - Peripheral: RS485 Encoder
+ObjectType=0x9
+SubNumber=8
+
+[500Csub2]
+ParameterName=RS485 Encoder: packets counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Csub3]
+ParameterName=RS485 Encoder: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Csub4]
+ParameterName=RS485 Encoder: is count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Csub5]
+ParameterName=RS485 Encoder: error bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Csub6]
+ParameterName=RS485 Encoder: warn bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500CsubB]
+ParameterName=RS485 Encoder: turn count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500CsubC]
+ParameterName=RS485 Encoder: is turn count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500CsubD]
+ParameterName=RS485 Encoder: recoverable errors counter
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500D]
+ParameterName=Telemetry - Peripheral: Dual Encoder
+ObjectType=0x9
+SubNumber=6
+
+[500Dsub3]
+ParameterName=Dual Encoder: count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Dsub4]
+ParameterName=Dual Encoder: is count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Dsub5]
+ParameterName=Dual Encoder: error bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500Dsub6]
+ParameterName=Dual Encoder: warn bit
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500DsubB]
+ParameterName=Dual Encoder: turn count
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[500DsubC]
+ParameterName=Dual Encoder: is turn count valid
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010]
+ParameterName=Telemetry - Networking
+ObjectType=0x9
+SubNumber=9
+
+[5010sub2]
+ParameterName=CAN: received packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub3]
+ParameterName=CAN: sent packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub4]
+ParameterName=CAN: errors
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+; USB: status: 0=Disconnected, 1=Connected
+[5010sub12]
+ParameterName=USB: status
+ObjectType=0x7
+DataType=0x0001
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub13]
+ParameterName=USB: received packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub14]
+ParameterName=USB: sent packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub15]
+ParameterName=USB: sending errors
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub17]
+ParameterName=USB2CAN: can->usb packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[5010sub18]
+ParameterName=USB2CAN: usb->can packets
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+
+[6040]
+ParameterName=Controlword
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=
+PDOMapping=0
+
+[6041]
+ParameterName=Statusword
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=
+PDOMapping=0
+

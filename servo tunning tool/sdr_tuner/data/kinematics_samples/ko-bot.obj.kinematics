@@ -1,0 +1,9 @@
+#;Name;Parent;Axis;Axis Type;Axis Direction X;Y;Z;Axis Origin Point(mm) X;Y;Z;Axis Limits(mm or deg) Min;Max;Axis Tolerance(mm or deg);Tool Direction X;Y;Z;Tool Tip(mm) X;Y;Z;Body Center of Mass(mm) X;Y;Z;Mass(kg);IMU
+0;chassis;;;;;;;0;0;0;;;;;;;;;;;;;10;0
+1;joint1;0;0;rotary;0;0;1;0;0;93;;;;;;;;;;;;;0.2;
+2;joint2;1;1;rotary;0;1;0;0;-138;93;;;;;;;;;;;;;0.2;
+3;joint3;2;2;rotary;0;1;0;0;73.8;521;;;;;;;;;;;;;0.3;
+4;joint4;3;3;rotary;0;1;0;0;-100.5;919;;;;;;;;;;;;;0.1;
+5;joint5;4;4;rotary;0;0;1;0;-100.5;1028.5;;;;0;-1;0;0;-456.45;1027.9;;;;0.1;
+6;joint6;5;;rotary;0;1;0;0;-160;1028.5;;;;0;-1;0;0;-456.45;1027.9;;;;0.1;
+7;joint7;6;;rotary;0;1;0;0;-205.25;1027.9;;;;0;-1;0;0;-456.45;1027.9;;;;0.1;		

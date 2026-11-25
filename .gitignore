@@ -1,0 +1,15 @@
+.venv/
+**/.venv/
+.idea/
+**/.idea/
+__MACOSX/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+**/.pytest_cache/
+build/
+**/build/
+dist/
+**/dist/
+.git_backup/
+**/.git_backup/

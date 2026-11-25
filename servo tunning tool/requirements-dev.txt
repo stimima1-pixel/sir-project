@@ -1,0 +1,12 @@
+-r requirements.txt
+pytest>=8
+pytest-qt>=4.4
+# only to check, in tests/test_export.py, that the exported .eds loads in a standard CANopen reader (the file is
+# meant for other CANopen tools; this tool's own code never imports canopen)
+canopen>=2.2
+# only to regenerate sdr_tuner/data/*.json from the Device Reference PDF (tools/import_device_reference.py):
+pymupdf>=1.24
+# only to build the installable app per OS (tools/build_release.py): the .app/.dmg on macOS, the .exe on Windows, the AppImage on Linux
+pyinstaller>=6.10
+# the icon tools (tools/make_app_icon.py) and build_release.py's Windows .ico
+pillow>=10

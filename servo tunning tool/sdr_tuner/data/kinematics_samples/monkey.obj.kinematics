@@ -1,0 +1,3 @@
+#;Name;Parent;Axis;Axis Type;Axis Direction X;Y;Z;Axis Origin Point(mm) X;Y;Z;Axis Limits(mm or deg) Min;Max;Axis Tolerance(mm or deg);Tool Direction X;Y;Z;Tool Tip(mm) X;Y;Z;Body Center of Mass(mm) X;Y;Z;Mass(kg);IMU
+0;base;;;;;;;0;0;0;;;;;;;;;;;;;1;0
+1;monkey;0;0;rotary;0;0;1;0;0;0;;;;1;0;0;100;0;0;;;;1;0

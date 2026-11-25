@@ -1,0 +1,1240 @@
+{
+  "product": "SDR-CB-60R-D",
+  "node_id": 1,
+  "poles": 14,
+  "generated": "2026-10-22T07:21:42Z",
+  "parameters": [
+    {
+      "index": 16384,
+      "sub": 2,
+      "name": "Operation Mode",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 3,
+      "name": "Fault Bits",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 4,
+      "name": "Sample Number",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 16,
+      "name": "Speed (Electrical Frequency)",
+      "section": "Telemetry - System Status",
+      "value": 0.0
+    },
+    {
+      "index": 16384,
+      "sub": 17,
+      "name": "Electrical Position",
+      "section": "Telemetry - System Status",
+      "value": 0.0
+    },
+    {
+      "index": 16384,
+      "sub": 20,
+      "name": "Kickstart needed",
+      "section": "Telemetry - System Status",
+      "value": false
+    },
+    {
+      "index": 16384,
+      "sub": 21,
+      "name": "Commutation Mode",
+      "section": "Telemetry - System Status",
+      "value": 2
+    },
+    {
+      "index": 16384,
+      "sub": 22,
+      "name": "Work Zone: Speed",
+      "section": "Telemetry - System Status",
+      "value": 0.0
+    },
+    {
+      "index": 16384,
+      "sub": 25,
+      "name": "Work Zone: Count",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 26,
+      "name": "Work Zone: Modulo Count",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 27,
+      "name": "Work Zone: Turn Count",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 28,
+      "name": "Work Zone: Dimension",
+      "section": "Telemetry - System Status",
+      "value": 65536
+    },
+    {
+      "index": 16384,
+      "sub": 32,
+      "name": "Reference: Current",
+      "section": "Telemetry - System Status",
+      "value": 0.0
+    },
+    {
+      "index": 16384,
+      "sub": 33,
+      "name": "Reference: Speed (Electrical Frequency)",
+      "section": "Telemetry - System Status",
+      "value": 0.0
+    },
+    {
+      "index": 16384,
+      "sub": 35,
+      "name": "Reference: Work Zone Count",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 50,
+      "name": "Servo Encoder: Counts",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 51,
+      "name": "Motor Encoder: Counts",
+      "section": "Telemetry - System Status",
+      "value": 0
+    },
+    {
+      "index": 16384,
+      "sub": 65,
+      "name": "Target Reached",
+      "section": "Telemetry - System Status",
+      "value": false
+    },
+    {
+      "index": 16385,
+      "sub": 2,
+      "name": "Torque",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 3,
+      "name": "FOC: Iq Current",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 4,
+      "name": "FOC: Id Current",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 5,
+      "name": "FOC: Uq Output Voltage",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 6,
+      "name": "FOC: Ud Output Voltage",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 7,
+      "name": "FOC: Uq Integral Term",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 8,
+      "name": "FOC: Ud Integral Term",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 34,
+      "name": "ESC: Integral Term",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16385,
+      "sub": 50,
+      "name": "Servo: Integral Term",
+      "section": "Telemetry - Field Oriented Control: FOC, ESC & Servo",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 2,
+      "name": "Hall Observer: mode",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0
+    },
+    {
+      "index": 16386,
+      "sub": 3,
+      "name": "Hall Observer: Hall code",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0
+    },
+    {
+      "index": 16386,
+      "sub": 4,
+      "name": "Hall Observer: Speed (Electrical Frequency)",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 5,
+      "name": "Hall Observer: Electrical Position",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 6,
+      "name": "Hall Observer: Technical Speed Limit",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 7,
+      "name": "Hall Observer: between codes counter",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0
+    },
+    {
+      "index": 16386,
+      "sub": 8,
+      "name": "Hall Observer: Hall errors counter",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0
+    },
+    {
+      "index": 16386,
+      "sub": 9,
+      "name": "Hall Observer: positioning error estimate",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 10,
+      "name": "Hall Observer: Zero Speed Threshold",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0.0
+    },
+    {
+      "index": 16386,
+      "sub": 11,
+      "name": "Hall Observer: count",
+      "section": "Telemetry - Hall Sensors Observer",
+      "value": 0
+    },
+    {
+      "index": 16391,
+      "sub": 2,
+      "name": "Sensorless: mode",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0
+    },
+    {
+      "index": 16391,
+      "sub": 3,
+      "name": "Sensorless: Speed (Electrical Frequency)",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 4,
+      "name": "Sensorless: Electrical Position",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 5,
+      "name": "Sensorless: Emf alpha",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 6,
+      "name": "Sensorless: Emf beta",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 7,
+      "name": "Sensorless: Back-Emf Constant (Ke)",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 8,
+      "name": "Sensorless: Zero Speed Threshold",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16391,
+      "sub": 9,
+      "name": "Sensorless: Technical Speed Limit",
+      "section": "Telemetry - Sensorless Control",
+      "value": 0.0
+    },
+    {
+      "index": 16392,
+      "sub": 3,
+      "name": "Direct Field Control: Electrical Position",
+      "section": "Telemetry - Direct Field Control",
+      "value": 0.0
+    },
+    {
+      "index": 16392,
+      "sub": 4,
+      "name": "Direct Field Control: Speed (Electrical Frequency)",
+      "section": "Telemetry - Direct Field Control",
+      "value": 0.0
+    },
+    {
+      "index": 20480,
+      "sub": 159,
+      "name": "Device Type",
+      "section": "Telemetry - Device Information",
+      "value": 167903634
+    },
+    {
+      "index": 20480,
+      "sub": 160,
+      "name": "Device Serial Number",
+      "section": "Telemetry - Device Information",
+      "value": 100234
+    },
+    {
+      "index": 20480,
+      "sub": 161,
+      "name": "Firmware Serial Number",
+      "section": "Telemetry - Device Information",
+      "value": 26092101
+    },
+    {
+      "index": 20480,
+      "sub": 162,
+      "name": "Control Frequency",
+      "section": "Telemetry - Device Information",
+      "value": 0.0
+    },
+    {
+      "index": 20480,
+      "sub": 163,
+      "name": "Switching (PWM) Frequency",
+      "section": "Telemetry - Device Information",
+      "value": 0.0
+    },
+    {
+      "index": 20480,
+      "sub": 164,
+      "name": "ADC ISR Execution Time",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20480,
+      "sub": 165,
+      "name": "Timer ISR Execution Time",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20480,
+      "sub": 166,
+      "name": "USB RX ISR Execution Time",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20480,
+      "sub": 167,
+      "name": "Firmware Version",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20480,
+      "sub": 168,
+      "name": "CPU Clock Frequency",
+      "section": "Telemetry - Device Information",
+      "value": 0.0
+    },
+    {
+      "index": 20480,
+      "sub": 169,
+      "name": "Timer ISR Frequency",
+      "section": "Telemetry - Device Information",
+      "value": 1000.0
+    },
+    {
+      "index": 20480,
+      "sub": 170,
+      "name": "PWM Clock Frequency",
+      "section": "Telemetry - Device Information",
+      "value": 0.0
+    },
+    {
+      "index": 20480,
+      "sub": 171,
+      "name": "CAN RX ISR Execution Time",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20480,
+      "sub": 172,
+      "name": "ADC ISR Execution PWM clock",
+      "section": "Telemetry - Device Information",
+      "value": 0
+    },
+    {
+      "index": 20481,
+      "sub": 3,
+      "name": "ADC mode",
+      "section": "Telemetry - ADC",
+      "value": false
+    },
+    {
+      "index": 20481,
+      "sub": 4,
+      "name": "Voltage: DC bus (Udc)",
+      "section": "Telemetry - ADC",
+      "value": 23.99609375
+    },
+    {
+      "index": 20481,
+      "sub": 5,
+      "name": "Current: Phase A (Ia)",
+      "section": "Telemetry - ADC",
+      "value": -0.007794705219566822
+    },
+    {
+      "index": 20481,
+      "sub": 6,
+      "name": "Current: Phase B (Ib)",
+      "section": "Telemetry - ADC",
+      "value": -0.25371643900871277
+    },
+    {
+      "index": 20481,
+      "sub": 7,
+      "name": "Current: Phase C (Ic)",
+      "section": "Telemetry - ADC",
+      "value": 0.0
+    },
+    {
+      "index": 20481,
+      "sub": 8,
+      "name": "Current: DC bus (Itotal)",
+      "section": "Telemetry - ADC",
+      "value": 0.0
+    },
+    {
+      "index": 20481,
+      "sub": 11,
+      "name": "Thermistor",
+      "section": "Telemetry - ADC",
+      "value": 0
+    },
+    {
+      "index": 20481,
+      "sub": 12,
+      "name": "CPU Temperature",
+      "section": "Telemetry - ADC",
+      "value": 0
+    },
+    {
+      "index": 20481,
+      "sub": 13,
+      "name": "Voltage: DC bus (Udc, f32)",
+      "section": "Telemetry - ADC",
+      "value": 23.994293212890625
+    },
+    {
+      "index": 20482,
+      "sub": 2,
+      "name": "Inverter: mode",
+      "section": "Telemetry - Peripheral: Inverter",
+      "value": false
+    },
+    {
+      "index": 20482,
+      "sub": 3,
+      "name": "Inverter: duty A",
+      "section": "Telemetry - Peripheral: Inverter",
+      "value": 0
+    },
+    {
+      "index": 20482,
+      "sub": 4,
+      "name": "Inverter: duty B",
+      "section": "Telemetry - Peripheral: Inverter",
+      "value": 0
+    },
+    {
+      "index": 20482,
+      "sub": 5,
+      "name": "Inverter: duty C",
+      "section": "Telemetry - Peripheral: Inverter",
+      "value": 0
+    },
+    {
+      "index": 20482,
+      "sub": 16,
+      "name": "Inverter: voltage utilization",
+      "section": "Telemetry - Peripheral: Inverter",
+      "value": 0.0
+    },
+    {
+      "index": 20483,
+      "sub": 2,
+      "name": "Electromagnetic Brake: mode",
+      "section": "Telemetry - Peripheral: Electromagnetic Brake",
+      "value": 0
+    },
+    {
+      "index": 20484,
+      "sub": 2,
+      "name": "Driver IC: status",
+      "section": "Telemetry - Peripheral: Driver IC",
+      "value": false
+    },
+    {
+      "index": 20484,
+      "sub": 3,
+      "name": "Driver IC: fault",
+      "section": "Telemetry - Peripheral: Driver IC",
+      "value": false
+    },
+    {
+      "index": 20484,
+      "sub": 4,
+      "name": "Driver IC: warning",
+      "section": "Telemetry - Peripheral: Driver IC",
+      "value": false
+    },
+    {
+      "index": 20484,
+      "sub": 16,
+      "name": "Driver IC: model",
+      "section": "Telemetry - Peripheral: Driver IC",
+      "value": 0
+    },
+    {
+      "index": 20485,
+      "sub": 2,
+      "name": "Hall Sensors Fault",
+      "section": "Telemetry - Peripheral: Hall Sensors",
+      "value": false
+    },
+    {
+      "index": 20485,
+      "sub": 3,
+      "name": "Hall Sensor #0",
+      "section": "Telemetry - Peripheral: Hall Sensors",
+      "value": 0
+    },
+    {
+      "index": 20485,
+      "sub": 4,
+      "name": "Hall Sensor #1",
+      "section": "Telemetry - Peripheral: Hall Sensors",
+      "value": 0
+    },
+    {
+      "index": 20485,
+      "sub": 5,
+      "name": "Hall Sensor #2",
+      "section": "Telemetry - Peripheral: Hall Sensors",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 2,
+      "name": "SPI Encoder: packets counter",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 3,
+      "name": "SPI Encoder: count",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 4,
+      "name": "SPI Encoder: is count valid",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": false
+    },
+    {
+      "index": 20486,
+      "sub": 5,
+      "name": "SPI Encoder: error bit",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": false
+    },
+    {
+      "index": 20486,
+      "sub": 6,
+      "name": "SPI Encoder: warn bit",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": false
+    },
+    {
+      "index": 20486,
+      "sub": 7,
+      "name": "SPI Encoder: extracted CRC",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 8,
+      "name": "SPI Encoder: computed CRC",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 9,
+      "name": "SPI Encoder: CRC mismatch error",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": false
+    },
+    {
+      "index": 20486,
+      "sub": 10,
+      "name": "SPI Encoder: CRC mismatch counter",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 11,
+      "name": "SPI Encoder: turn count",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20486,
+      "sub": 12,
+      "name": "SPI Encoder: is turn count valid",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": false
+    },
+    {
+      "index": 20486,
+      "sub": 13,
+      "name": "SPI Encoder: recoverable errors counter",
+      "section": "Telemetry - Peripheral: SPI Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 2,
+      "name": "PWM Encoder: state",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 3,
+      "name": "PWM Encoder: event counter",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 4,
+      "name": "PWM Encoder: pulse width (CAP1)",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 5,
+      "name": "PWM Encoder: pulse period (CAP2)",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 6,
+      "name": "PWM Encoder: pulse width (CAP3)",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 7,
+      "name": "PWM Encoder: pulse period (CAP4)",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 8,
+      "name": "PWM Encoder: count",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 9,
+      "name": "PWM Encoder: fault detected",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": false
+    },
+    {
+      "index": 20487,
+      "sub": 10,
+      "name": "PWM Encoder: pulse width",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20487,
+      "sub": 11,
+      "name": "PWM Encoder: pulse period",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20487,
+      "sub": 12,
+      "name": "PWM Encoder: pulse timeout counter",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 13,
+      "name": "PWM Encoder: pulse counter",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0
+    },
+    {
+      "index": 20487,
+      "sub": 14,
+      "name": "PWM Encoder: frequency",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20487,
+      "sub": 15,
+      "name": "PWM Encoder: ratio",
+      "section": "Telemetry - Peripheral: PWM Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20488,
+      "sub": 2,
+      "name": "SSI/BISS-C Encoder: packets counter",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 3,
+      "name": "SSI/BISS-C Encoder: count",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 4,
+      "name": "SSI/BISS-C Encoder: is count valid",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": false
+    },
+    {
+      "index": 20488,
+      "sub": 5,
+      "name": "SSI/BISS-C Encoder: error bit",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": false
+    },
+    {
+      "index": 20488,
+      "sub": 6,
+      "name": "SSI/BISS-C Encoder: warn bit",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": false
+    },
+    {
+      "index": 20488,
+      "sub": 7,
+      "name": "SSI/BISS-C Encoder: extracted CRC",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 8,
+      "name": "SSI/BISS-C Encoder: computed CRC",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 9,
+      "name": "SSI/BISS-C Encoder: CRC mismatch error",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": false
+    },
+    {
+      "index": 20488,
+      "sub": 10,
+      "name": "SSI/BISS-C Encoder: CRC mismatch counter",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 11,
+      "name": "SSI/BISS-C Encoder: turn count",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20488,
+      "sub": 12,
+      "name": "SSI/BISS-C Encoder: is turn count valid",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": false
+    },
+    {
+      "index": 20488,
+      "sub": 13,
+      "name": "SSI/BISS-C Encoder: recoverable errors counter",
+      "section": "Telemetry - Peripheral: SSI/BISS-C Encoder",
+      "value": 0
+    },
+    {
+      "index": 20489,
+      "sub": 4,
+      "name": "GPIO: Emergency Stop Switch",
+      "section": "Telemetry - Peripheral: GPIO & STO / Interlock",
+      "value": 0
+    },
+    {
+      "index": 20489,
+      "sub": 5,
+      "name": "GPIO: Limit Switch: Negative Speed",
+      "section": "Telemetry - Peripheral: GPIO & STO / Interlock",
+      "value": 0
+    },
+    {
+      "index": 20489,
+      "sub": 6,
+      "name": "GPIO: Limit Switch: Positive Speed",
+      "section": "Telemetry - Peripheral: GPIO & STO / Interlock",
+      "value": 0
+    },
+    {
+      "index": 20489,
+      "sub": 16,
+      "name": "GPIO: Generic Input",
+      "section": "Telemetry - Peripheral: GPIO & STO / Interlock",
+      "value": 0
+    },
+    {
+      "index": 20489,
+      "sub": 32,
+      "name": "STO /Interlock: status",
+      "section": "Telemetry - Peripheral: GPIO & STO / Interlock",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 2,
+      "name": "Quadrature: signal A",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 3,
+      "name": "Quadrature: signal B",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 4,
+      "name": "Quadrature: signal I",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 5,
+      "name": "Quadrature: direction",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 6,
+      "name": "Quadrature: count",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0
+    },
+    {
+      "index": 20490,
+      "sub": 8,
+      "name": "Quadrature: encoder speed",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20490,
+      "sub": 10,
+      "name": "Quadrature: index detected",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": false
+    },
+    {
+      "index": 20490,
+      "sub": 11,
+      "name": "Quadrature: phase errors counter",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0
+    },
+    {
+      "index": 20490,
+      "sub": 12,
+      "name": "Quadrature: encoder speed via UNIT DISTANCE method",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20490,
+      "sub": 13,
+      "name": "Quadrature: encoder speed via UNIT TIME method",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20490,
+      "sub": 14,
+      "name": "Quadrature: distance traveled in UNIT TIME",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20490,
+      "sub": 15,
+      "name": "Quadrature: time to travel UNIT DISTANCE",
+      "section": "Telemetry - Peripheral: Quadrature Encoder",
+      "value": 0.0
+    },
+    {
+      "index": 20491,
+      "sub": 2,
+      "name": "RC PWM Input: state",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 3,
+      "name": "RC PWM Input: event counter",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 4,
+      "name": "RC PWM Input: pulse width (CAP1)",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 5,
+      "name": "RC PWM Input: pulse period (CAP2)",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 6,
+      "name": "RC PWM Input: pulse width (CAP3)",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 7,
+      "name": "RC PWM Input: pulse period (CAP4)",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 9,
+      "name": "RC PWM Input: fault detected",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": false
+    },
+    {
+      "index": 20491,
+      "sub": 10,
+      "name": "RC PWM Input: pulse width",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0.0
+    },
+    {
+      "index": 20491,
+      "sub": 11,
+      "name": "RC PWM Input: pulse period",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0.0
+    },
+    {
+      "index": 20491,
+      "sub": 12,
+      "name": "RC PWM Input: pulse timeout counter",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 13,
+      "name": "RC PWM Input: pulse counter",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0
+    },
+    {
+      "index": 20491,
+      "sub": 14,
+      "name": "RC PWM Input: frequency",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0.0
+    },
+    {
+      "index": 20491,
+      "sub": 15,
+      "name": "RC PWM Input: ratio",
+      "section": "Telemetry - Peripheral: RC PWM or Electronic Gearing",
+      "value": 0.0
+    },
+    {
+      "index": 20492,
+      "sub": 2,
+      "name": "RS485 Encoder: packets counter",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": 0
+    },
+    {
+      "index": 20492,
+      "sub": 3,
+      "name": "RS485 Encoder: count",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": 0
+    },
+    {
+      "index": 20492,
+      "sub": 4,
+      "name": "RS485 Encoder: is count valid",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": false
+    },
+    {
+      "index": 20492,
+      "sub": 5,
+      "name": "RS485 Encoder: error bit",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": false
+    },
+    {
+      "index": 20492,
+      "sub": 6,
+      "name": "RS485 Encoder: warn bit",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": false
+    },
+    {
+      "index": 20492,
+      "sub": 11,
+      "name": "RS485 Encoder: turn count",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": 0
+    },
+    {
+      "index": 20492,
+      "sub": 12,
+      "name": "RS485 Encoder: is turn count valid",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": false
+    },
+    {
+      "index": 20492,
+      "sub": 13,
+      "name": "RS485 Encoder: recoverable errors counter",
+      "section": "Telemetry - Peripheral: RS485 Encoder",
+      "value": 0
+    },
+    {
+      "index": 20493,
+      "sub": 3,
+      "name": "Dual Encoder: count",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": 0
+    },
+    {
+      "index": 20493,
+      "sub": 4,
+      "name": "Dual Encoder: is count valid",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": false
+    },
+    {
+      "index": 20493,
+      "sub": 5,
+      "name": "Dual Encoder: error bit",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": false
+    },
+    {
+      "index": 20493,
+      "sub": 6,
+      "name": "Dual Encoder: warn bit",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": false
+    },
+    {
+      "index": 20493,
+      "sub": 11,
+      "name": "Dual Encoder: turn count",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": 0
+    },
+    {
+      "index": 20493,
+      "sub": 12,
+      "name": "Dual Encoder: is turn count valid",
+      "section": "Telemetry - Peripheral: Dual Encoder",
+      "value": false
+    },
+    {
+      "index": 20496,
+      "sub": 2,
+      "name": "CAN: received packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 3,
+      "name": "CAN: sent packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 4,
+      "name": "CAN: errors",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 18,
+      "name": "USB: status",
+      "section": "Telemetry - Networking",
+      "value": false
+    },
+    {
+      "index": 20496,
+      "sub": 19,
+      "name": "USB: received packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 20,
+      "name": "USB: sent packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 21,
+      "name": "USB: sending errors",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 23,
+      "name": "USB2CAN: can->usb packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 20496,
+      "sub": 24,
+      "name": "USB2CAN: usb->can packets",
+      "section": "Telemetry - Networking",
+      "value": 0
+    },
+    {
+      "index": 24641,
+      "sub": 0,
+      "name": "Statusword",
+      "section": "Telemetry - CiA 402 (firmware patch)",
+      "value": 0
+    }
+  ]
+}
